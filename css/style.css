@@ -1,4 +1,60 @@
-body{
+body {
     margin: 0;
-    background-color: rgb(217, 217, 217);
+    background-image: url(../img/pintada.jpg); 
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    width: 80%; 
+    margin: 10% auto; 
+    background-color: rgba(230, 230, 194, 0.6); 
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 100, 0, 0.2); 
+}
+
+h1 {
+    color: #FFD700; 
+    font-weight: bolder;
+    font-size: 2.5em; 
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
+p, ul li {
+    color: black; 
+    font-weight: bolder;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    font-size: 1.2em; 
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "➤"; 
+    color: #FFD700; 
+    font-size: 1.2em; 
+    padding-right: 10px; 
+}
+
+
+button{
+    background-color: rgba(255, 215, 0, 0.7);
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bolder;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 215, 0, 1);
+    cursor: pointer;
 }

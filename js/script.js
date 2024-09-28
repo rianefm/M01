@@ -1,3 +1,5 @@
+
+
 // Array de perguntas (simplificado para o exemplo)
 const questions = [
     {
@@ -37,9 +39,14 @@ function selectAnswer(event) {
 function showModal(message) {
     modalMessage.textContent = message;
     modal.style.display = 'block';
+
+    // Redireciona para a index.html após 3 segundos (3000ms)
+    setTimeout(function() {
+        window.location.href = '../index.html'; // Substitua pelo caminho correto do arquivo
+    }, 3000);
 }
 
-// Função para fechar o modal
+// Função para fechar o modal (opcional caso precise de interatividade manual)
 closeModalButton.addEventListener('click', function() {
     modal.style.display = 'none';
     resetQuiz();

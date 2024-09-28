@@ -36,8 +36,10 @@ ul {
 }
 
 ul li {
-  background-color: #28a745;
-  color: white;
+  background-color: transparent; /* Fundo transparente */
+  border: 2px solid #218838; /* Borda amarela */
+  color: #333;
+  font-weight: bolder;
   margin-bottom: 10px;
   padding: 15px;
   border-radius: 10px;
@@ -67,4 +69,22 @@ ul li:hover {
   border-radius: 10px;
   width: 300px;
   text-align: center;
+}
+
+#close-modal {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#next-question {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }

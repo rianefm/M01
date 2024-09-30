@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Meio Ambiente</title>
+    <link rel="stylesheet" href="../css/perguntas.css" />
+  </head>
+  <body>
+    <div class="question-container">
+      
+      <h1>Pergunta 1</h1>
+  <h3>Qual é a principal causa do aquecimento global?</h3>
+  <ul>
+    <li data-answer="wrong">A. A energia eólica</li>
+    <li data-answer="correct">B. O uso de combustíveis fósseis</li>
+    <li data-answer="wrong">C. A reciclagem de plástico</li>
+    <li data-answer="wrong">D. A agricultura orgânica</li>
+  </ul>
+  
+      <button id="next-question" style="display: none" onclick="window.location.href='perguntaDois.html'">Próxima Pergunta</button>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <p id="modal-message"></p>
+        <button id="close-modal">Fechar</button>
+      </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

@@ -1,16 +1,11 @@
 
-
-// Array de perguntas (simplificado para o exemplo)
-const questions = [
-    {
-        question: 'O que significa a sigla "CO2"?',
-        answers: [
-            { text: 'Clorofluorcarbono', correct: false },
-            { text: 'Cloro e oxigênio', correct: false },
-            { text: 'Dióxido de carbono', correct: true },
-            { text: 'Monóxido de carbono', correct: false }
-        ]
-    }
+// Cria um array com os nomes das páginas ou URLs das perguntas
+const questionPages = [
+    'html/perguntaUm.html',
+    'html/perguntaDois.html',
+    'html/perguntaTres.html',
+    'html/perguntaQuatro.html',
+    'html/perguntaCinco.html'
 ];
 
 // Variáveis de controle

@@ -8,6 +8,8 @@ body {
     height: 100vh;
     margin: 0;
     background-image: url('../img/conheca-15-dos-mais-famosos-animais-da-amazonia-8-945x630.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 
 }
 

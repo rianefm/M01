@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e6f7e6; /* Verde claro */
+    background-color: #e6f7e6;
     color: #333;
     display: flex;
     justify-content: center;
@@ -15,18 +15,18 @@ body {
 
 .container {
     text-align: center;
-    background-color: #ffffff; /* Fundo branco para o container */
+    background-color: #ffffff; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-    color: #28a745; /* Verde para o título */
+    color: #28a745; 
 }
 
 button {
-    background-color: #28a745; /* Verde para o botão */
+    background-color: #28a745; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -38,5 +38,5 @@ button {
 }
 
 button:hover {
-    background-color: #218838; /* Um tom mais escuro ao passar o mouse */
+    background-color: #218838; 
 }
